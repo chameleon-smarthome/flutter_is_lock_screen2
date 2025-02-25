@@ -2,7 +2,7 @@ group 'com.wingli.is_lock_screen2'
 version '2.0.2'
 
 buildscript {
-    ext.kotlin_version = '2.1.0'
+    ext.kotlin_version = '1.8.0'
     repositories {
         google()
         mavenCentral()
@@ -44,7 +44,7 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8
     }
-    
+
     lintOptions {
         disable 'InvalidPackage'
     }
